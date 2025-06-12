@@ -1,8 +1,8 @@
-# Image Rotation using NVIDIA NPP with CUDA
+# Unsharp masking using NVIDIA NPP with CUDA
 
 ## Overview
 
-This project demonstrates the use of NVIDIA Performance Primitives (NPP) library with CUDA to perform image rotation. The goal is to utilize GPU acceleration to efficiently rotate a given image by a specified angle, leveraging the computational power of modern GPUs. The project is a part of the CUDA at Scale for the Enterprise course and serves as a template for understanding how to implement basic image processing operations using CUDA and NPP.
+This project demonstrates the use of NVIDIA Performance Primitives (NPP) library with CUDA to implement unsharp masking. Unsharp masking is desribed here: https://en.wikipedia.org/wiki/Unsharp_masking.
 
 ## Code Organization
 
@@ -108,7 +108,7 @@ If you wish to run the binary directly with custom input/output files, you can u
 
 ```bash
 - Copy code
-./bin/imageRotationNPP --input data/Lena.png --output data/Lena_rotated.png
+./bin/insharpMaskNPP --input data/Lena.png --output data/Lena_rotated.png
 ```
 
 - Cleaning Up

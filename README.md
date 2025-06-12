@@ -108,7 +108,7 @@ If you wish to run the binary directly with custom input/output files, you can u
 
 ```bash
 - Copy code
-./bin/insharpMaskNPP --input data/Lena.png --output data/Lena_rotated.png
+./bin/unsharpMaskNPP --input data/Lena.png --output data/Lena_rotated.png
 ```
 
 - Cleaning Up
